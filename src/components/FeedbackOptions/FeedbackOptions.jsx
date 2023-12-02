@@ -9,8 +9,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     <BtnWrapper>
       {options.map(option => {
         return (
-          <li>
-            <Feedbackbtn
+              <Feedbackbtn
               key={option}
               icon={icons[option]}
               type="button"
@@ -20,8 +19,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             >
               {option}
             </Feedbackbtn>
-          </li>
-        );
+                );
       })}
     </BtnWrapper>
   );
